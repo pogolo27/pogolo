@@ -1,0 +1,9 @@
+@keyframes hell-background {
+    from {background-color: white}
+    to {background-color: black}
+}
+
+@keyframes greeting {
+    from {It's you again.}
+    to {It's you again. Welcome Back.}
+}

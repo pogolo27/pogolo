@@ -1,0 +1,48 @@
+@import "additional styling.css";
+
+.body {
+    background-color: white;
+    animation-name: hell-background;
+    animation-duration: 20s;
+}
+
+.flavour {
+    color: crimson; 
+    font-size: 75px;
+    text-align: center;
+}
+
+.inscribed {
+    color: white; 
+    font-size: 40px;
+    text-align: center;
+}
+
+.inscribed:hover {
+    color:crimson;
+    transition: color 4s;
+}
+
+.image {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    opacity: 0.0;
+}
+
+.image:hover {
+    opacity: 1.0;
+    transition-delay: 2s;
+    transition: 4s;
+}
+
+.button {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.greeting {
+    animation-name: greeting;
+    animation-duration: 5s;
+}
